@@ -1,0 +1,24 @@
+{
+  "name": "segunda-pre-entrega-del-proyecto-final",
+  "version": "1.0.0",
+  "description": "Contarás con Mongo como sistema de persistencia principal. Tendrás definidos todos los endpoints para poder trabajar con productos y carritos.",
+  "main": "./src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.45.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.1",
+    "mongoose": "^7.4.3",
+    "mongoose-paginate-v2": "^1.7.31",
+    "socket.io": "^4.7.2"
+  }
+}
